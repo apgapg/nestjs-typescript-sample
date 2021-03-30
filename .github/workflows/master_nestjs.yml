@@ -36,4 +36,4 @@ jobs:
         app-name: 'nestjs'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_b80496adef514045ba81a93f6df33de5 }}
-        package: .
+        package: ./dist
